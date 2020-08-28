@@ -1,0 +1,16 @@
+PODS:
+  - duitku (0.2.0)
+
+DEPENDENCIES:
+  - duitku (~> 0.2)
+
+SPEC REPOS:
+  trunk:
+    - duitku
+
+SPEC CHECKSUMS:
+  duitku: d8451c096e167dc0bf1424bebdc14bb1a3eaf583
+
+PODFILE CHECKSUM: 9c63511dbc9ab9ed882023402c2cfd866ec6cf26
+
+COCOAPODS: 1.9.3

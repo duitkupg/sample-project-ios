@@ -1,0 +1,6 @@
+framework module duitku {
+  umbrella header "duitku-umbrella.h"
+
+  export *
+  module * { export * }
+}

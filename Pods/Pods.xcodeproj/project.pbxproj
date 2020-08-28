@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A5110ABCA5F7241B71CB6CF6071A17 /* CheckoutDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61541A260FBC68657F95F677D49AE9C6 /* CheckoutDuitku.swift */; };
+		078C81E456BE7FF9BF5B73A71B5D539E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 303E9C59FAE05A8380B0901A960FB970 /* en.lproj */; };
+		2622CD525E65263588B47467406DF05A /* Animated.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F44C007840B5CECF26EE6A7654950A1B /* Animated.bundle */; };
+		34D7CA2124F8C15D000FBE28 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D7CA2024F8C15D000FBE28 /* WebKit.framework */; };
+		3F16A0E5C251C2B30471AD88A926EE87 /* loadingduitku.gif in Resources */ = {isa = PBXBuildFile; fileRef = 93F759F190E00AE6432598109524D43F /* loadingduitku.gif */; };
+		430EFDA008ABFFE6A994350C09414988 /* listPaymentDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861771CD74FA73D173B05AB8F85AF72F /* listPaymentDuitku.swift */; };
+		5D2EC657906278592CEA19A367D11EB1 /* ListPaymentDuitku.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B29503E0C8B0BB2B5FE97D42892E2 /* ListPaymentDuitku.storyboard */; };
+		60A41BC9FAE2AECCEB91AB002A94EC63 /* DuitkuKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06514F80A78F2B978835096EBBE69AE /* DuitkuKit.swift */; };
+		6D060300DC5B34D85CE5A2AFB5C09EE0 /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572334923AAB34303D1E8CDBE5802B1B /* Passport.swift */; };
+		7318285C909C2A92EF510A8CB5E0AD97 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BBEF20F1C7842DFD2C0ADC251383C /* Helper.swift */; };
+		79A90F37D1A6330087097F1D16237603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		90F001BFD2C717F6A6F5B9044CA2410F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9A49644CA4B6E486C1B69325F0385359 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D778FD970DEC416EBEACD7538A0E3B /* ReplaceMe.swift */; };
+		A1BF435BF9E0E43561EB6F82C5EF5570 /* AnimatedDuitku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F66B53E4007AC9FBD53B1A812517F4B /* AnimatedDuitku.swift */; };
+		AC4AEC3B4284A7A6DF4FD2BD2D3684E3 /* TableViewCellPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A264E94E46385370D2B306CF6D4F86 /* TableViewCellPayment.swift */; };
+		B2E3CB29C4BE3ADD5FEDF9611D02E4FD /* DuitkuClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0686CC714815C8117440E1C213A6A4 /* DuitkuClient.swift */; };
+		C9CC15AE81B7D2002055F83921D08421 /* error.gif in Resources */ = {isa = PBXBuildFile; fileRef = F28BD892A97F28AD10633ED741766DD8 /* error.gif */; };
+		CAD5872009F936868C035B5239FB4B7D /* Pods-sample-project-ios-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69333C7C28053A83E35BFA8C03CDA44 /* Pods-sample-project-ios-swift-dummy.m */; };
+		CCC2E45BB0C11C9FCBB1ADF407359048 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = C57E6F0583881E9DBFA55968FEDF4D0C /* Root.plist */; };
+		CE5B3546969983288827B77538D57F8C /* listPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03253FC97312C69D959CD8A01AB18C5 /* listPayment.swift */; };
+		D783D49D5657D491A846DA6C4F1A1BAE /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050CAE87ED088285FC10A4570A199901 /* Sandbox.swift */; };
+		DA2BF1B02A3D85D424EEDD3B0BD203F2 /* duitku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E94B32E924693DB20D6724408AFE22B /* duitku-dummy.m */; };
+		E93C8085BD627CAB77A1E2706683168C /* duitku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D990BD84CA6F926E387FB1248D621175 /* duitku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9BCDB846C01D2F075F274820383BDF2 /* Pods-sample-project-ios-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAC160AF520F27DDD3CB9DAF1D1134A /* Pods-sample-project-ios-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547CAE80E2278A6F443D936559286E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16295C0DF6AB2095F0762E968851EE66;
+			remoteInfo = duitku;
+		};
+		7E957A3DB0A7C453DB2F1135543E9327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7831E17B55F7979A8B6174FCDDF68E71;
+			remoteInfo = "duitku-Animated";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050CAE87ED088285FC10A4570A199901 /* Sandbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sandbox.swift; path = duitku/Classes/Sandbox.swift; sourceTree = "<group>"; };
+		171992DC3F181942C2D46F8128404718 /* Pods-sample-project-ios-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sample-project-ios-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		1B0B29503E0C8B0BB2B5FE97D42892E2 /* ListPaymentDuitku.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ListPaymentDuitku.storyboard; path = duitku/Classes/ListPaymentDuitku.storyboard; sourceTree = "<group>"; };
+		1FAC160AF520F27DDD3CB9DAF1D1134A /* Pods-sample-project-ios-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sample-project-ios-swift-umbrella.h"; sourceTree = "<group>"; };
+		21195A91D43295DE716B3D9D537A6106 /* Pods_sample_project_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_project_ios_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213350E2A326EECC84553720B567C90B /* duitku-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "duitku-prefix.pch"; sourceTree = "<group>"; };
+		2172835294E32FA3337CE9FC0956D5C6 /* Pods-sample-project-ios-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sample-project-ios-swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		21A832958545CA3B6F47E2034D4311A2 /* Pods-sample-project-ios-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sample-project-ios-swift.release.xcconfig"; sourceTree = "<group>"; };
+		22A264E94E46385370D2B306CF6D4F86 /* TableViewCellPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellPayment.swift; path = duitku/Classes/TableViewCellPayment.swift; sourceTree = "<group>"; };
+		2536005C8CAF5F063B2F698E4E7CD598 /* duitku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = duitku.release.xcconfig; sourceTree = "<group>"; };
+		303E9C59FAE05A8380B0901A960FB970 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = duitku/Resources/Animated.bundle/en.lproj; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34D7CA2024F8C15D000FBE28 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		572334923AAB34303D1E8CDBE5802B1B /* Passport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Passport.swift; path = duitku/Classes/Passport.swift; sourceTree = "<group>"; };
+		61541A260FBC68657F95F677D49AE9C6 /* CheckoutDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutDuitku.swift; path = duitku/Classes/CheckoutDuitku.swift; sourceTree = "<group>"; };
+		6A3BBEF20F1C7842DFD2C0ADC251383C /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = duitku/Classes/Helper.swift; sourceTree = "<group>"; };
+		6E94B32E924693DB20D6724408AFE22B /* duitku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "duitku-dummy.m"; sourceTree = "<group>"; };
+		6F0686CC714815C8117440E1C213A6A4 /* DuitkuClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DuitkuClient.swift; path = duitku/Classes/DuitkuClient.swift; sourceTree = "<group>"; };
+		75A7D171359EEFA6CEEEDC0FA1511783 /* duitku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = duitku.debug.xcconfig; sourceTree = "<group>"; };
+		77C3D0F74FEE8D75CC7B4346D1D48A57 /* Pods-sample-project-ios-swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sample-project-ios-swift-frameworks.sh"; sourceTree = "<group>"; };
+		7DEC365E42DD83222AEC18BC17AA1D3B /* ResourceBundle-Animated-duitku-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Animated-duitku-Info.plist"; sourceTree = "<group>"; };
+		7F66B53E4007AC9FBD53B1A812517F4B /* AnimatedDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedDuitku.swift; path = duitku/Classes/AnimatedDuitku.swift; sourceTree = "<group>"; };
+		861771CD74FA73D173B05AB8F85AF72F /* listPaymentDuitku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = listPaymentDuitku.swift; path = duitku/Classes/listPaymentDuitku.swift; sourceTree = "<group>"; };
+		8E67D247F39E4CC392366553907D9424 /* duitku-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "duitku-Info.plist"; sourceTree = "<group>"; };
+		93F759F190E00AE6432598109524D43F /* loadingduitku.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = loadingduitku.gif; path = duitku/Resources/Animated.bundle/loadingduitku.gif; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A46AE49FDA5BC3AB8334CB8C18A403EF /* duitku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = duitku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57E6F0583881E9DBFA55968FEDF4D0C /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = duitku/Resources/Animated.bundle/Root.plist; sourceTree = "<group>"; };
+		C69333C7C28053A83E35BFA8C03CDA44 /* Pods-sample-project-ios-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sample-project-ios-swift-dummy.m"; sourceTree = "<group>"; };
+		C9D778FD970DEC416EBEACD7538A0E3B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = duitku/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		CB43DDF6609EECD91A9DAE26768EBAFC /* duitku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = duitku.modulemap; sourceTree = "<group>"; };
+		D03253FC97312C69D959CD8A01AB18C5 /* listPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = listPayment.swift; path = duitku/Classes/listPayment.swift; sourceTree = "<group>"; };
+		D1C7CD8528121BEDDFB1700B8130CF1A /* Pods-sample-project-ios-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sample-project-ios-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D990BD84CA6F926E387FB1248D621175 /* duitku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "duitku-umbrella.h"; sourceTree = "<group>"; };
+		DA2AFC80375164E20748E350A69E23C5 /* Pods-sample-project-ios-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sample-project-ios-swift.modulemap"; sourceTree = "<group>"; };
+		E781958D40730854F4F34F466B12B4ED /* Pods-sample-project-ios-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sample-project-ios-swift-Info.plist"; sourceTree = "<group>"; };
+		F06514F80A78F2B978835096EBBE69AE /* DuitkuKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DuitkuKit.swift; path = duitku/Classes/DuitkuKit.swift; sourceTree = "<group>"; };
+		F28BD892A97F28AD10633ED741766DD8 /* error.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = error.gif; path = duitku/Resources/Animated.bundle/error.gif; sourceTree = "<group>"; };
+		F44C007840B5CECF26EE6A7654950A1B /* Animated.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animated.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089D988068A833A8296D0CDDCF2ECB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCE66864D0F6B0D7013D26AFEA05740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D7CA2124F8C15D000FBE28 /* WebKit.framework in Frameworks */,
+				90F001BFD2C717F6A6F5B9044CA2410F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49EC5DF3629D01A6619E86175878C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A90F37D1A6330087097F1D16237603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39F13B9BEE176D27B7CAA308CCB42F2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB43DDF6609EECD91A9DAE26768EBAFC /* duitku.modulemap */,
+				6E94B32E924693DB20D6724408AFE22B /* duitku-dummy.m */,
+				8E67D247F39E4CC392366553907D9424 /* duitku-Info.plist */,
+				213350E2A326EECC84553720B567C90B /* duitku-prefix.pch */,
+				D990BD84CA6F926E387FB1248D621175 /* duitku-umbrella.h */,
+				75A7D171359EEFA6CEEEDC0FA1511783 /* duitku.debug.xcconfig */,
+				2536005C8CAF5F063B2F698E4E7CD598 /* duitku.release.xcconfig */,
+				7DEC365E42DD83222AEC18BC17AA1D3B /* ResourceBundle-Animated-duitku-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/duitku";
+			sourceTree = "<group>";
+		};
+		4E7098880A87424FA43546E2302D8882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFE807836AF0661EE3F26E43466C3352 /* duitku */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69D67B8A5143931C0CF5EE8BAA7965D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				303E9C59FAE05A8380B0901A960FB970 /* en.lproj */,
+				F28BD892A97F28AD10633ED741766DD8 /* error.gif */,
+				93F759F190E00AE6432598109524D43F /* loadingduitku.gif */,
+				C57E6F0583881E9DBFA55968FEDF4D0C /* Root.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		778D44B3284A409132A884B1B965203E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44C007840B5CECF26EE6A7654950A1B /* Animated.bundle */,
+				A46AE49FDA5BC3AB8334CB8C18A403EF /* duitku.framework */,
+				21195A91D43295DE716B3D9D537A6106 /* Pods_sample_project_ios_swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0D79CC053D21572C2BFDD117BCA261 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF626A9BB35C6E90C04FA194616D98 /* Pods-sample-project-ios-swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BFE807836AF0661EE3F26E43466C3352 /* duitku */ = {
+			isa = PBXGroup;
+			children = (
+				7F66B53E4007AC9FBD53B1A812517F4B /* AnimatedDuitku.swift */,
+				61541A260FBC68657F95F677D49AE9C6 /* CheckoutDuitku.swift */,
+				6F0686CC714815C8117440E1C213A6A4 /* DuitkuClient.swift */,
+				F06514F80A78F2B978835096EBBE69AE /* DuitkuKit.swift */,
+				6A3BBEF20F1C7842DFD2C0ADC251383C /* Helper.swift */,
+				D03253FC97312C69D959CD8A01AB18C5 /* listPayment.swift */,
+				1B0B29503E0C8B0BB2B5FE97D42892E2 /* ListPaymentDuitku.storyboard */,
+				861771CD74FA73D173B05AB8F85AF72F /* listPaymentDuitku.swift */,
+				572334923AAB34303D1E8CDBE5802B1B /* Passport.swift */,
+				C9D778FD970DEC416EBEACD7538A0E3B /* ReplaceMe.swift */,
+				050CAE87ED088285FC10A4570A199901 /* Sandbox.swift */,
+				22A264E94E46385370D2B306CF6D4F86 /* TableViewCellPayment.swift */,
+				69D67B8A5143931C0CF5EE8BAA7965D4 /* Resources */,
+				39F13B9BEE176D27B7CAA308CCB42F2A /* Support Files */,
+			);
+			path = duitku;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCBF626A9BB35C6E90C04FA194616D98 /* Pods-sample-project-ios-swift */ = {
+			isa = PBXGroup;
+			children = (
+				DA2AFC80375164E20748E350A69E23C5 /* Pods-sample-project-ios-swift.modulemap */,
+				D1C7CD8528121BEDDFB1700B8130CF1A /* Pods-sample-project-ios-swift-acknowledgements.markdown */,
+				2172835294E32FA3337CE9FC0956D5C6 /* Pods-sample-project-ios-swift-acknowledgements.plist */,
+				C69333C7C28053A83E35BFA8C03CDA44 /* Pods-sample-project-ios-swift-dummy.m */,
+				77C3D0F74FEE8D75CC7B4346D1D48A57 /* Pods-sample-project-ios-swift-frameworks.sh */,
+				E781958D40730854F4F34F466B12B4ED /* Pods-sample-project-ios-swift-Info.plist */,
+				1FAC160AF520F27DDD3CB9DAF1D1134A /* Pods-sample-project-ios-swift-umbrella.h */,
+				171992DC3F181942C2D46F8128404718 /* Pods-sample-project-ios-swift.debug.xcconfig */,
+				21A832958545CA3B6F47E2034D4311A2 /* Pods-sample-project-ios-swift.release.xcconfig */,
+			);
+			name = "Pods-sample-project-ios-swift";
+			path = "Target Support Files/Pods-sample-project-ios-swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4E7098880A87424FA43546E2302D8882 /* Pods */,
+				778D44B3284A409132A884B1B965203E /* Products */,
+				9D0D79CC053D21572C2BFDD117BCA261 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D7CA2024F8C15D000FBE28 /* WebKit.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C003C5A62EB17936D43C86734900A3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BCDB846C01D2F075F274820383BDF2 /* Pods-sample-project-ios-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1644F3FA49204C753851027F21476F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C8085BD627CAB77A1E2706683168C /* duitku-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		124DBFE74CD995017CE7EF59C3FD9EEE /* Pods-sample-project-ios-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC92A90783DA0BEA83A986093717A71 /* Build configuration list for PBXNativeTarget "Pods-sample-project-ios-swift" */;
+			buildPhases = (
+				7C003C5A62EB17936D43C86734900A3E /* Headers */,
+				4EE534E4A71386E893D60AA4C5B3BDA9 /* Sources */,
+				E49EC5DF3629D01A6619E86175878C9E /* Frameworks */,
+				566487E1E330A1841E002F7C48B0B5A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8096F126E74F93623DCEAF099868D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-sample-project-ios-swift";
+			productName = "Pods-sample-project-ios-swift";
+			productReference = 21195A91D43295DE716B3D9D537A6106 /* Pods_sample_project_ios_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16295C0DF6AB2095F0762E968851EE66 /* duitku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4411D9A3B5957BBEC1862267935907DC /* Build configuration list for PBXNativeTarget "duitku" */;
+			buildPhases = (
+				D1644F3FA49204C753851027F21476F8 /* Headers */,
+				0C0BDA3263BCEB340D3A88C91C13B257 /* Sources */,
+				2CCE66864D0F6B0D7013D26AFEA05740 /* Frameworks */,
+				D151506994DF56723C4E37E58EB3509C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6103F4CA072EE5AFA067AE93F5FD684C /* PBXTargetDependency */,
+			);
+			name = duitku;
+			productName = duitku;
+			productReference = A46AE49FDA5BC3AB8334CB8C18A403EF /* duitku.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7831E17B55F7979A8B6174FCDDF68E71 /* duitku-Animated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A211C76595EB63B800566F834174D6D /* Build configuration list for PBXNativeTarget "duitku-Animated" */;
+			buildPhases = (
+				BDF039A63E033C86627444CB106E8D7F /* Sources */,
+				089D988068A833A8296D0CDDCF2ECB6C /* Frameworks */,
+				EEF9D2129A5E4F0ABF1C45C0227DA3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "duitku-Animated";
+			productName = "duitku-Animated";
+			productReference = F44C007840B5CECF26EE6A7654950A1B /* Animated.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 778D44B3284A409132A884B1B965203E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16295C0DF6AB2095F0762E968851EE66 /* duitku */,
+				7831E17B55F7979A8B6174FCDDF68E71 /* duitku-Animated */,
+				124DBFE74CD995017CE7EF59C3FD9EEE /* Pods-sample-project-ios-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566487E1E330A1841E002F7C48B0B5A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D151506994DF56723C4E37E58EB3509C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2622CD525E65263588B47467406DF05A /* Animated.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF9D2129A5E4F0ABF1C45C0227DA3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C81E456BE7FF9BF5B73A71B5D539E /* en.lproj in Resources */,
+				C9CC15AE81B7D2002055F83921D08421 /* error.gif in Resources */,
+				3F16A0E5C251C2B30471AD88A926EE87 /* loadingduitku.gif in Resources */,
+				CCC2E45BB0C11C9FCBB1ADF407359048 /* Root.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C0BDA3263BCEB340D3A88C91C13B257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF435BF9E0E43561EB6F82C5EF5570 /* AnimatedDuitku.swift in Sources */,
+				01A5110ABCA5F7241B71CB6CF6071A17 /* CheckoutDuitku.swift in Sources */,
+				DA2BF1B02A3D85D424EEDD3B0BD203F2 /* duitku-dummy.m in Sources */,
+				B2E3CB29C4BE3ADD5FEDF9611D02E4FD /* DuitkuClient.swift in Sources */,
+				60A41BC9FAE2AECCEB91AB002A94EC63 /* DuitkuKit.swift in Sources */,
+				7318285C909C2A92EF510A8CB5E0AD97 /* Helper.swift in Sources */,
+				CE5B3546969983288827B77538D57F8C /* listPayment.swift in Sources */,
+				5D2EC657906278592CEA19A367D11EB1 /* ListPaymentDuitku.storyboard in Sources */,
+				430EFDA008ABFFE6A994350C09414988 /* listPaymentDuitku.swift in Sources */,
+				6D060300DC5B34D85CE5A2AFB5C09EE0 /* Passport.swift in Sources */,
+				9A49644CA4B6E486C1B69325F0385359 /* ReplaceMe.swift in Sources */,
+				D783D49D5657D491A846DA6C4F1A1BAE /* Sandbox.swift in Sources */,
+				AC4AEC3B4284A7A6DF4FD2BD2D3684E3 /* TableViewCellPayment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE534E4A71386E893D60AA4C5B3BDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD5872009F936868C035B5239FB4B7D /* Pods-sample-project-ios-swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF039A63E033C86627444CB106E8D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6103F4CA072EE5AFA067AE93F5FD684C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "duitku-Animated";
+			target = 7831E17B55F7979A8B6174FCDDF68E71 /* duitku-Animated */;
+			targetProxy = 7E957A3DB0A7C453DB2F1135543E9327 /* PBXContainerItemProxy */;
+		};
+		CF8096F126E74F93623DCEAF099868D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = duitku;
+			target = 16295C0DF6AB2095F0762E968851EE66 /* duitku */;
+			targetProxy = 547CAE80E2278A6F443D936559286E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BCC3AF0F39EEFA8A7CCBB883BB304D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2536005C8CAF5F063B2F698E4E7CD598 /* duitku.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/duitku/duitku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/duitku/duitku-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/duitku/duitku.modulemap";
+				PRODUCT_MODULE_NAME = duitku;
+				PRODUCT_NAME = duitku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		15599E36613D6EEFFEBC12E640854D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A7D171359EEFA6CEEEDC0FA1511783 /* duitku.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/duitku";
+				IBSC_MODULE = duitku;
+				INFOPLIST_FILE = "Target Support Files/duitku/ResourceBundle-Animated-duitku-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Animated;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		52FFFD8FFF296E3B57BD151A260D7983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171992DC3F181942C2D46F8128404718 /* Pods-sample-project-ios-swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sample-project-ios-swift/Pods-sample-project-ios-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sample-project-ios-swift/Pods-sample-project-ios-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B77EFDF0815CDFCA25FF97F0032104A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2536005C8CAF5F063B2F698E4E7CD598 /* duitku.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/duitku";
+				IBSC_MODULE = duitku;
+				INFOPLIST_FILE = "Target Support Files/duitku/ResourceBundle-Animated-duitku-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Animated;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		86565B41DA87A2BE2397C174F2ADDAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A832958545CA3B6F47E2034D4311A2 /* Pods-sample-project-ios-swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sample-project-ios-swift/Pods-sample-project-ios-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sample-project-ios-swift/Pods-sample-project-ios-swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FAAFEDCEBDEE9D82254B80F6C244E83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A7D171359EEFA6CEEEDC0FA1511783 /* duitku.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/duitku/duitku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/duitku/duitku-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/duitku/duitku.modulemap";
+				PRODUCT_MODULE_NAME = duitku;
+				PRODUCT_NAME = duitku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC92A90783DA0BEA83A986093717A71 /* Build configuration list for PBXNativeTarget "Pods-sample-project-ios-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FFFD8FFF296E3B57BD151A260D7983 /* Debug */,
+				86565B41DA87A2BE2397C174F2ADDAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4411D9A3B5957BBEC1862267935907DC /* Build configuration list for PBXNativeTarget "duitku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAFEDCEBDEE9D82254B80F6C244E83C /* Debug */,
+				0BCC3AF0F39EEFA8A7CCBB883BB304D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A211C76595EB63B800566F834174D6D /* Build configuration list for PBXNativeTarget "duitku-Animated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15599E36613D6EEFFEBC12E640854D78 /* Debug */,
+				5B77EFDF0815CDFCA25FF97F0032104A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
