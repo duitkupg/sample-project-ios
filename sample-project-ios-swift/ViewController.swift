@@ -84,27 +84,27 @@ class ViewController: DuitkuClient{
             ,email: textemail.text!
             ,phoneNumber: textphone.text!
              ,additionalParam: ""
-             ,merchantUserInfo: "Bambang"
-             ,customerVaName: "Bambang Maulana"
-             ,callbackUrl: "http://182.23.85.8/callback"
-             ,returnUrl: "http://182.23.85.8/return"
-             ,expiryPeriod: "60"
-             ,firstName: "bambang"
-             ,lastName: "maulana"
-             ,alamat: "cigugur"
-             ,city: "kuningan"
-             ,postalCode: "45552"
-             ,countryCode: "ID"
+             ,merchantUserInfo: ""
+             ,customerVaName: ""
+             ,callbackUrl: "http://merchant-server.com/callback"
+             ,returnUrl: "http://merchant-server.com/return"
+             ,expiryPeriod: "10"
+             ,firstName: ""
+             ,lastName: ""
+             ,alamat: ""
+             ,city: ""
+             ,postalCode: ""
+             ,countryCode: ""
              ,merchantOrderId: "" //can empty if merchant order id on web server
         )
         
         //star loop here
-        //ItemDetails.data(name: product, price: Int(price)!, quantity: Int(quantity)!) //optional
+        ItemDetails.data(name: textamount.text!, price: Int(textamount.text!)!, quantity: Int("1")!) //optional
         //finish start loop
          
          // base url
         BaseRequestDuitku.data(
-              baseUrlPayment: "http://182.23.85.8/sdkserver/api/sandbox/request/"
+              baseUrlPayment: "http://merchant-server.com/sdkserver/api/sandbox/request/"
              ,requestTransaction: "transaksi"
              ,checkTransaction: "checktransaksi"
              ,listPayment: "listPayment"
